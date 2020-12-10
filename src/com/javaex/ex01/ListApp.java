@@ -23,6 +23,15 @@ public class ListApp {
 		Rectangle r100 = rList.get(0);
 		r100.draw();
 
+		for(int i=0; i<rList.size(); i++) {
+			/*
+			Rectangle r = rList.get(i);
+			r.draw();
+			*/
+			rList.get(i).draw(); // 같은 표현
+		}
+		
+		
 		System.out.println("사각형" + rList.size() + "개");
 
 		// 원형 관리
